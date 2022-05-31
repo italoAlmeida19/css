@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exemplo: CSS</title>
+    <style>
+        ul > li {
+            text-decoration: underline;
+            font-size: medium;
+        }
+        ol > li {
+            text-decoration: underline;
+            text-decoration-style: dashed;
+            font-size: medium;
+        }
+    </style>
   </head>
   <body>
     <h1>Exemplo: CSS</h1>
-    <ul>
+    <ol>
       <li style="font-size: x-large; text-transform: uppercase">
         Minas Gerais
       </li>
@@ -23,10 +34,10 @@
       >
         Ceará
       </li>
-    </ul>
+    </ol>
 
     <ul>
-        <li style="text-decoration: underline;">Belo Horizonte</li>
+        <li>Belo Horizonte</li>
         <li>Campinas</li>
         <li>Niterói</li>
         <li>Natal</li>
