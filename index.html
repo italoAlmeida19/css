@@ -6,25 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exemplo: CSS</title>
     <style>
-        ul > li {
-            text-decoration: underline;
-            font-size: medium;
-        }
-        ol > li {
+         ol  li {
             text-decoration: underline;
             text-decoration-style: dashed;
             font-size: medium;
         }
+        body ul > li {
+            text-decoration: underline;
+            font-size: medium;
+        }
+       
     </style>
   </head>
   <body>
     <h1>Exemplo: CSS</h1>
     <ol>
-      <li style="font-size: x-large; text-transform: uppercase">
-        Minas Gerais
-      </li>
-      <li style="font-weight: bolder">São Paulo</li>
-      <li style="font-size: x-small; font-weight: lighter">Rio de Janeiro</li>
+        <li style="font-size: x-large; text-transform: uppercase">
+            Minas Gerais
+            <ul>
+                <li>Belo Horizonte</li>
+            </ul>
+        </li>
+        <li style="font-weight: bolder">São Paulo
+            <ul>
+                <li>Campinas</li>
+            </ul>
+        </li>
+      <li style="font-size: x-small; font-weight: lighter">Rio de Janeiro
+    </li>
       <li
         style="
           font-size: x-large;
@@ -37,8 +46,6 @@
     </ol>
 
     <ul>
-        <li>Belo Horizonte</li>
-        <li>Campinas</li>
         <li>Niterói</li>
         <li>Natal</li>
     </ul>
