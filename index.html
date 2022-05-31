@@ -6,48 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exemplo: CSS</title>
     <style>
-         ol  li {
-            text-decoration: underline;
-            text-decoration-style: dashed;
-            font-size: medium;
-        }
-        body ul > li {
-            text-decoration: underline;
-            font-size: medium;
-        }
-       
+      li.cidade {
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        font-size: medium;
+      }
+      .estado {
+        text-decoration: underline;
+        font-size: large;
+      }
     </style>
   </head>
   <body>
-    <h1>Exemplo: CSS</h1>
+    <h1 class="estado">Exemplo: CSS</h1>
     <ol>
-        <li style="font-size: x-large; text-transform: uppercase">
-            Minas Gerais
-            <ul>
-                <li>Belo Horizonte</li>
-            </ul>
-        </li>
-        <li style="font-weight: bolder">São Paulo
-            <ul>
-                <li>Campinas</li>
-            </ul>
-        </li>
-      <li style="font-size: x-small; font-weight: lighter">Rio de Janeiro
-    </li>
-      <li
-        style="
-          font-size: x-large;
-          font-weight: bolder;
-          font-variant: small-caps;
-        "
-      >
-        Ceará
+      <li class="estado">
+        Minas Gerais
+        <ul>
+          <li class="cidade">Belo Horizonte</li>
+        </ul>
       </li>
+      <li class="estado">
+        São Paulo
+        <ul>
+          <li class="cidade">Campinas</li>
+        </ul>
+      </li>
+      <li class="estado">
+          Rio de Janeiro
+            <ul>
+                <li class="cidade">Niterói</li>
+            </ul>
+        </li>
+      <li class="estado">
+          Ceará
+            <ul>
+                <li class="cidade">Natal</li>
+            </ul>
+        </li>
     </ol>
 
-    <ul>
-        <li>Niterói</li>
-        <li>Natal</li>
-    </ul>
   </body>
 </html>
