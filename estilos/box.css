@@ -12,14 +12,14 @@ div {
 
 #A {
     background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
 }
 
 #B {
     background-color: blue;
     padding: 20px 10px 5px 0px;
-    position: relative;
-    top: 0px;
-    left: 0px;
 }
 
 #C {
