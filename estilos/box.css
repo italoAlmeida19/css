@@ -5,3 +5,11 @@ div {
     width: 230px;
     height: 120px;
 }
+
+#A {
+    background-color: red;
+}
+
+#B {
+    background-color: blue;
+}
