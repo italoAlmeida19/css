@@ -6,8 +6,7 @@ div {
     height: 120px;
     overflow: auto;
     padding: 10px;
-    border: solid 2px green;
-    margin: 15px;
+    border: solid 2px orange;
     box-sizing: border-box;
 }
 
@@ -18,9 +17,11 @@ div {
 #B {
     background-color: blue;
     padding: 20px 10px 5px 0px;
-    float: right;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
 
 #C {
-    float: right;
+    background-color: green;
 }
