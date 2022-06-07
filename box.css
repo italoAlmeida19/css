@@ -1,0 +1,7 @@
+div {
+    background-color: hsl(0, 0%, 66%);
+    color: rgb(0, 0, 0);
+    display: block;
+    width: 230px;
+    height: 120px;
+}
